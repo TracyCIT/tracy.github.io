@@ -2,44 +2,45 @@
 /* You may use #HEX or color names */
 
 /* * is a wildcard referring to all elements. */
-* { margin: 0; box-sizing: border-box; } 
+* { margin: 4; box-sizing: content-box; } 
 
 body { 
-    font-size: 16px; 
+    font-size: 20px; 
     line-height: 32px;
-    font-family: sans-serif/* Ubuntu, sans-serif */;
-    color: FFA0000/* #xxxxxx */;
+    font-family: sans-serif/*Ubuntu, sans-serif */;
+    color:#1D272A/* #xxxxxx */;
 }
 
 h1 {
-    font-size: 12px /* x.xrem  (rem is a unit of measure) */;
-    color: /* #xxxxxx */;
+    font-size: 29px /* x.xrem  (rem is a unit of measure) */;
+    color:#1D272A/* #xxxxxx */;
 }
 
 h2 {
-    font-size: /* x.xrem */;
+    font-size:18px/* x.xrem */;
     text-align: center;
-    border-bottom: 1px solid #bbb;
+    border-bottom: 5px solid #bbb;
 }
 
 header, main, footer {
     margin: 1.25rem auto;
     padding: .5rem;
-    max-width: /* xxxpx (px = pixel is a unit of measure)  */;
+    max-width:  /* xxxpx (px = pixel is a unit of measure)  */;
 }
 
 header, footer, footer a {
     text-align: center;
-    background-color: /* */;
+    background-color:#8ECAEC/* */;
     color: whitesmoke;
 }
 
 header img {
-    width: /*  */;
+    width: 135 /*  */;
     height: auto;
     float: right;
 }
 
 footer {
-    font-size: /* smaller */;
+    font-size: 14px/* smaller */;
+    color: 1D272A;
 }
